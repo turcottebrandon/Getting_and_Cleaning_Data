@@ -14,5 +14,5 @@ This file describe the script ('run_analysis.R') used to obtain tidy data from t
 <li>Test data is loaded ('X_test.txt', 'subject_test.txt', 'y_test.txt')(<code>cbind</code>)</li>
 <li>Training data is loaded ('X_train.txt', 'subject_train.txt', 'y_train.txt')(<code>cbind</code>)</li>
 <li>Test and Training data is merged (<code>rbind</code>)</li>
-<li>tidy.txt is exported which contains the average of each variable for each activity and each subject (<code>write.table</code>)</li>
+<li>tidy.txt is exported which contains the average of each variable for each activity and each subject (<code>write.table(data,"tidy.txt",sep = '\t', row.name=FALSE)</code>)</li>
 </ol>
