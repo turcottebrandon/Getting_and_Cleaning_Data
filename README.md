@@ -7,7 +7,7 @@ This file describe the script ('run_analysis.R') used to obtain tidy data from t
 </ul>
 <p>'run_analysis.R' defines a function </p>
 <code>tidyData <- function()</code>
-<p>Source data in extracted in the working directory; this is where tidyData function will search.  The function assumes that the folders are layed out in the exact same way as in the source zip file.</p>
+<p>Source data is to be extracted in the working directory; this is where tidyData function will search.  The function assumes that the folders are layed out in the exact same way as in the source zip file.</p>
 <p>The creation of the tidy data set takes place in five (5) steps within the function:
 <ol>
 <li>The features ('features.txt') are loaded and more descriptive names are created.  From this data, a data table is created (<code>data.features.filtered</code>) which contains a variable of any feature names containing 'mean' or 'std' and a variable of the column id; the activity labels ('activity_labels.txt') are loaded</li>
