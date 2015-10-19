@@ -74,10 +74,10 @@
 <li>fBodyGyroJerkMag</li>
 </ul>
 <p>The set of variables that were estimated from these signals are: </p>
-
-mean(): Mean value
-std(): Standard deviation
-
+<ul>
+<li>mean(): Mean value</li>
+<li>std(): Standard deviation</li>
+</ul>
 <p>Additional vectors obtained by averaging the signals in a signal window sample. These are used on the angle() variable:</p>
 <ul>
 <li>gravityMean</li>
