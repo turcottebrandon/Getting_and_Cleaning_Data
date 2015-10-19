@@ -16,8 +16,7 @@ tidyData <- function(){
         #select only features of 'mean' or 'std' data.  V1 = column#, V2 = column label
          data.features.filtered <- data.features[grepl("mean",data.features$V2) | grepl("std",data.features$V2)]
          data.features.descrip <- data.features.filtered[,V2]
-                 #data.features.detailed <- rename.features(data.features.filtered)
-                 #data.features.detailed <<-data.features.detailed[2]
+                 #add more detail to base feature names
                          data.features.descrip <- gsub("tBody", "Time.Body", data.features.descrip)
                          data.features.descrip <- gsub("fBody", "FFT.Body", data.features.descrip)
                          
