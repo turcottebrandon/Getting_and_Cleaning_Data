@@ -16,3 +16,4 @@ This file describe the script ('run_analysis.R') used to obtain tidy data from t
 <li>Test and Training data is merged (<code>rbind</code>)</li>
 <li>tidy.txt is exported which contains the average of each variable for each activity and each subject (<code>write.table(data,"tidy.txt",sep = '\t', row.name=FALSE)</code>)</li>
 </ol>
+<p> The full tidy dataset is stored in <code>tidy</code>.
