@@ -87,5 +87,23 @@ std(): Standard deviation
 <li>tBodyGyroJerkMean</li>
 </ul>
 
+##Transformation
+<p>The following steps were performed on the data:</p>
+<ul>
+<li>The training and the test were merged to create one data set.</li>
+<li>Only the measurements on the mean and standard deviation for each measurement were kept. </li>
+<li>Descriptive activity names were used to name the activities in the data set</li>
+<li>Descriptive variable names were used. </li>
+<li>A tidy data set with the average of each variable for each activity and each subject was created.</li>
+</ul>
+<p>Variable names:
+<ul>
+<li>'Subject' for subject data</li>
+<li>'Activity' for activity data</li>
+<li>'t' prefix changed to 'Time.' prefix</li>
+<li>'f' prefix changed to 'FFT.' prefix</li>
+<li>'-mean' changed to '.Mean'</li>
+<li>'-std' changed to '.Std'</li>
+</ul>
 ##References
 [1] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
